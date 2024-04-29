@@ -10,6 +10,22 @@
     <header>Phaser Demo | Apple Catcher</header>
     <main>
       <canvas id="gameCanvas"></canvas>
+      <div id="gameStartDiv" class="gameUI">
+        <h1>Apple Catcher</h1>
+        <p>
+          You have 30 seconds to catch apples! <br>
+          If you catch more than 10 apples you win. <br>
+          If you catch less than that you lose.  <br>
+          Click the Start button to begin
+        </p>
+        <button id="gameStartBtn"><p>Start</p></button>
+      </div>
+      <div id="gameEndDiv" class="gameUI">
+        <p>Game Over</p>
+        <h1>You <span id="gameWinLoseSpan"></span></h1>
+        <h1>Final Score <span id="gameEndScoreSpan"></span></h1>
+        <p>Refresh the page to play again</p>
+      </div>
     </main>
     <footer>
       <p>Created by Deja, edited by Lindon 2024</p>
